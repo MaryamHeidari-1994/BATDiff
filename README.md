@@ -48,3 +48,20 @@ BATDiff/
 ├── main.py                   # Main training and sampling entry point
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
+## Installation
+git clone https://github.com/MaryamHeidari-1994/BATDiff.git
+cd BATDiff
+pip install -r requirements.txt
+
+##Usage
+python main.py --mode train
+Example with custom settings:
+python main.py \
+  --mode train \
+  --dataset_folder ./data/Urban25lr/ \
+  --image_name lr.png \
+  --results_folder ./results/Urban25lr \
+  --use_atrous \
+  --atrous_wavelet b3 \
+  --atrous_level 6 \
+  --sr_factor 8
