@@ -1,21 +1,21 @@
-# BATDiff: Bivariate À Trous Wavelet Diffusion for Single Image Super-Resolution
+# BATDiff: Single Image Super-Resolution via Bivariate `A Trous Wavelet Diffusion
 
-Official research implementation of **BATDiff**, a diffusion-based single-image super-resolution framework.
+Official research implementation of **BATDiff**, a diffusion based single image super-resolution framework.
 
 ---
 
 ## Overview
 
-BATDiff improves high-frequency reconstruction by modelling cross-scale dependencies using à trous wavelet decomposition and diffusion.
+BATDiff improves high frequency reconstruction by modelling cross scale dependencies using à trous wavelet decomposition and diffusion.
 
 ---
 
 ## Method
 
 - Undecimated à trous wavelet transform  
-- Coarse-to-fine reconstruction  
-- Bivariate cross-scale conditioning  
-- LR-consistency during inference  
+- Coarse to fine reconstruction  
+- Bivariate crossscale conditioning  
+- LR consistency during inference  
 
 ---
 
@@ -57,18 +57,6 @@ python main.py \
   --atrous_level 6 \
   --sr_factor 8  
 
----
-
-## Notes
-
-This code is provided for research purposes and may require additional configuration.
-
----
-
-## Author
-
-Maryam Heidari  
-University of Bristol  
 
 ---
 
