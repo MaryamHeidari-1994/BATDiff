@@ -53,7 +53,12 @@ git clone https://github.com/MaryamHeidari-1994/BATDiff.git
 cd BATDiff
 pip install -r requirements.txt
 
-##Usage
+---
+
+
+## Usage
+
+```text
 python main.py --mode train
 Example with custom settings:
 python main.py \
@@ -65,3 +70,4 @@ python main.py \
   --atrous_wavelet b3 \
   --atrous_level 6 \
   --sr_factor 8
+---
